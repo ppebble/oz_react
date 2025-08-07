@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+/* 기본 레이아웃 스타일 */
+.app-container {
+	display: flex;
+	min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-nav {
+	width: 250px;
+	background-color: #f8f9fa;
+	padding: 20px;
+	border-right: 1px solid #dee2e6;
+	/* 나중에 네비게이션 스타일 추가 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-main {
+	flex: 1;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-title {
+	margin-bottom: 40px;
+	color: #343a40;
+	font-size: 2rem;
 }

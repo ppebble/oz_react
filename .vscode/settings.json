@@ -1,18 +1,34 @@
 {
-	// "[jsonc]": {
-	//   "editor.defaultFormatter": null
-	// },
-	// "editor.defaultFormatter": null,
-	// "[json]": {
-	//   "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-	// },
-	// "[typescriptreact]": {
-	//   "editor.defaultFormatter": "vscode.typescript-language-features"
-	// },
-	// "[typescript]": {
-	//   "editor.defaultFormatter": "esbenp.prettier-vscode"
-	// },
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": "explicit"
-	}
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "non-relative",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"javascript.preferences.importModuleSpecifier": "non-relative",
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.trailingComma": "all",
+	"prettier.printWidth": 100,
+	"prettier.semi": true,
+	"prettier.bracketSpacing": true,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.arrowParens": "always",
+	"prettier.endOfLine": "auto",
+	"files.associations": {
+		"*.tsx": "typescriptreact"
+	},
+	"explorer.confirmDelete": false,
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"workbench.colorTheme": "Default Dark Modern",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"typescript.suggest.autoImports": true,
+	"javascript.suggest.autoImports": true
 }

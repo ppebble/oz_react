@@ -1,0 +1,57 @@
+.button {
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: inherit;
+	transition: all 0.2s ease;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Variants */
+.primary {
+	background-color: #4caf50;
+	color: white;
+}
+
+.secondary {
+	background-color: #f0f0f0;
+	color: #333;
+	border: 1px solid #ddd;
+}
+
+.text {
+	background: none;
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+/* Sizes */
+.small {
+	padding: 6px 12px;
+	font-size: 12px;
+}
+
+.medium {
+	padding: 8px 16px;
+	font-size: 14px;
+}
+
+.large {
+	padding: 12px 24px;
+	font-size: 16px;
+}
+
+/* Hover States */
+.primary:hover {
+	background-color: #45a049;
+}
+
+.secondary:hover {
+	background-color: #e0e0e0;
+}
+
+.text:hover {
+	color: #004499;
+}
