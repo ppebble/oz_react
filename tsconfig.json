@@ -3,9 +3,9 @@
 		"target": "es2020",
 		"baseUrl": "./",
 		"paths": {
-			"@/*": ["src/*"]
+			"@/*": ["main/src/*"]
 		},
-		"typeRoots": ["node_modules/@types", "src/types"],
+		"typeRoots": ["node_modules/@types", "main/src/types"],
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
 		"skipLibCheck": true,
@@ -36,14 +36,14 @@
 		"declarationMap": false,
 		"sourceMap": true,
 		"outDir": "./dist",
-		"rootDir": "./src"
+		"rootDir": "main/src"
 	},
 	"include": [
-		"src/**/*.ts",
-		"src/**/*.tsx",
-		"src/**/*.js",
-		"src/**/*.jsx",
-		"src/**/*.json",
+		"main/src/**/*.ts",
+		"main/src/**/*.tsx",
+		"main/src/**/*.js",
+		"main/src/**/*.jsx",
+		"main/src/**/*.json",
 		"../vite.config.ts"
 	],
 	"exclude": [

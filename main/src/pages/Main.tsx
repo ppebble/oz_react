@@ -1,5 +1,5 @@
-import { ModuleCard } from '@/components/ModuleCard';
-import { modules } from '@/data/modules';
+import { ModuleCard } from '../components/ModuleCard';
+import { modules } from '../data/modules';
 
 export const Main = () => {
 	return (

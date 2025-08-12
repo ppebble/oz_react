@@ -1,9 +1,8 @@
 {
-	"name": "oz-react-work",
+	"name": "oz-react-main",
 	"version": "0.1.0",
 	"workspaces": [
-		"packages/*",
-		"apps/*"
+		"packages/*"
 	],
 	"private": true,
 	"dependencies": {
