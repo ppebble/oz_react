@@ -2,10 +2,10 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit",
-    "source.addMissingImports": "explicit"
-  },
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "explicit",
+		"source.addMissingImports": "explicit"
+	},
 	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"typescript.preferences.importModuleSpecifier": "non-relative",
@@ -17,11 +17,12 @@
 	"prettier.printWidth": 100,
 	"prettier.semi": true,
 	"prettier.bracketSpacing": true,
-	"prettier.jsxBracketSameLine": false,
+	"prettier.bracketSameLine": false,
 	"prettier.arrowParens": "always",
 	"prettier.endOfLine": "auto",
 	"files.associations": {
-		"*.tsx": "typescriptreact"
+		"*.tsx": "typescriptreact",
+		"*.jsx": "javascriptreact"
 	},
 	"explorer.confirmDelete": false,
 	"typescript.enablePromptUseWorkspaceTsdk": true,
